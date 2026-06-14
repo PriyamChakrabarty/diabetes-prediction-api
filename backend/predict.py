@@ -52,6 +52,7 @@ def predict_diabetes(data: dict):
 
     df = pd.DataFrame([data])
 
+    df["gender"] = df["gender"].str.title()
     df["gender"] = df["gender"].map(gender_map)
     df["smoking_history"] = df["smoking_history"].map(smoking_map)
 
