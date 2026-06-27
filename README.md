@@ -1,6 +1,11 @@
 # Diabetes Prediction API
 
 A FastAPI-based machine learning API for early diabetes risk prediction using a Stacking Ensemble Learning framework. The system combines Random Forest, Gradient Boosting, AdaBoost, and XGBoost models through a Logistic Regression meta-learner to improve predictive performance.
+APP Link:
+```text
+https://udify.app/chat/gB5uEXHy5UOs7crd
+```
+
 
 ## Features
 
